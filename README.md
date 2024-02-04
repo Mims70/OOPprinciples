@@ -39,20 +39,20 @@ This JavaScript code implements a comprehensive animal classification system, le
 
 ```javascript
 // Create instances of each animal class
-const spider = new Arthropoda("Spider");
+const butterfly = new Arthropoda("Butterfly");
 const goldfish = new Fish("Goldfish");
 const frog = new Amphibia("Frog");
-const snake = new Reptiles("Snake");
+const turtle = new Reptiles("Turtle");
 const eagle = new AVES("Eagle");
-const dog = new Mammals("Dog");
+const cat = new Mammals("Cat");
 
 // Display information about each animal
-displayAnimalInfo(spider);
+displayAnimalInfo(butterfly);
 displayAnimalInfo(goldfish);
 displayAnimalInfo(frog);
-displayAnimalInfo(snake);
+displayAnimalInfo(turtle);
 displayAnimalInfo(eagle);
-displayAnimalInfo(dog);
+displayAnimalInfo(cat);
 ```
 ## Benefits of OOP Implementation
 

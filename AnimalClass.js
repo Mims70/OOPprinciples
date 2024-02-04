@@ -111,18 +111,18 @@ class Animal {
   // Polymorphism: Creating instances of different classes but using a common interface
   
   // Create instances of each animal class
-  const spider = new Arthropoda("Butterfly");
+  const butterfly = new Arthropoda("Butterfly");
   const goldfish = new Fish("Goldfish");
   const frog = new  Amphibia("Frog");
-  const snake = new Reptiles("Turtle");
+  const turtle = new Reptiles("Turtle");
   const eagle = new AVES("Eagle");
-  const dog = new Mammals("Cat");
+  const cat = new Mammals("Cat");
   
   // Polymorphism: Calling the common interface to display information about each animal
-  displayAnimalInfo(spider);
+  displayAnimalInfo(butterfly);
   displayAnimalInfo(goldfish);
   displayAnimalInfo(frog);
-  displayAnimalInfo(snake);
+  displayAnimalInfo(turtle);
   displayAnimalInfo(eagle);
-  displayAnimalInfo(dog);
+  displayAnimalInfo(cat);
   
